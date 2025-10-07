@@ -16,6 +16,9 @@ nav {
 }
 
 /* shared style */
+.bg-secondary {
+  background-color: #fff8f3;
+}
 .text-primary {
   color: #fd6e0a;
 }
@@ -27,6 +30,7 @@ nav {
 .dark-3 {
   color: #757575;
 }
+
 .btn-primary {
   color: white;
   background-color: #fd6e0a;
@@ -35,6 +39,18 @@ nav {
   border-radius: 5px;
   font-size: 20px;
   border: none;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+
+.section-description {
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
 }
 
 /* header styles */
@@ -71,9 +87,11 @@ nav li a {
   justify-content: space-between;
   margin: 0 38px 0 230px;
 }
+
 .banner-content {
   max-width: 580px;
 }
+
 .banner-greeting {
   font-size: 45px;
   font-weight: 600;
@@ -94,4 +112,33 @@ nav li a {
 
 .banner-profile-pic {
   width: 583px;
+}
+
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about styles */
+.about {
+  border-radius: 10px;
+  margin-top: 130px;
+  text-align: center;
+  align-items: center;
+  padding: 131px 157px 131px 156px;
+}
+
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-title {
+  font-size: 20px;
+}
+
+.item-description {
+  font-size: 20px;
+  font-weight: bold;
 }
