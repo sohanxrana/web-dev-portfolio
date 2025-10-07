@@ -24,6 +24,9 @@ nav {
   color: #474747;
 }
 
+.dark-3 {
+  color: #757575;
+}
 .btn-primary {
   color: white;
   background-color: #fd6e0a;
@@ -31,6 +34,15 @@ nav {
   padding: 18px 35px;
   border-radius: 5px;
   font-size: 20px;
+  border: none;
+}
+
+/* header styles */
+.header-img {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 
 .nav-title {
@@ -51,4 +63,35 @@ nav ul li {
 nav li a {
   text-decoration: none;
   font-size: 20px;
+}
+
+/* banner styles start */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 38px 0 230px;
+}
+.banner-content {
+  max-width: 580px;
+}
+.banner-greeting {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: auto;
+}
+
+.banner-heading {
+  font-size: 85px;
+  font-weight: bold;
+  line-height: auto;
+}
+
+.banner-paragraph {
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+.banner-profile-pic {
+  width: 583px;
 }
