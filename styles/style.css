@@ -31,6 +31,9 @@ nav {
   color: #757575;
 }
 
+.text-align {
+  text-align: center;
+}
 .btn-primary {
   color: white;
   background-color: #fd6e0a;
@@ -170,6 +173,36 @@ main section {
 
 .skill {
   padding: 30px;
+  margin-top: 50px;
   background-color: #ffffff;
   box-shadow: 0px 6px 10px 0px #000000;
+}
+
+/* resume section style */
+.resume-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+.resume-column-title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.experience-title {
+  font-size: 25px;
+}
+
+.experience-sub-title {
+  font-size: 20px;
+}
+
+.experience-description {
+  font-size: 16px;
+}
+
+.resume-download-btn {
+  margin-top: 30px;
 }
